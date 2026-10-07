@@ -1,0 +1,26 @@
+{
+    "name": "lowseekai/flarum-chinese-search",
+    "description": "Substring search for Chinese discussion titles and posts",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": ">=2.0.0-rc.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "LowSeekAI\\ChineseSearch\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "id": "lowseekai-chinese-search",
+            "title": "Chinese Search",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-language",
+                "backgroundColor": "#4a6fa5",
+                "color": "#fff"
+            }
+        }
+    }
+}
